@@ -1,12 +1,12 @@
-package com.socialorion.osiris.models;
+package com.socialorion.osiris.model;
 
 import java.util.Date;
 
 public class HistoryRecord {
-	Integer id;
-	Integer userId;
-	String ip;
-	Date time;
+	private Integer id;
+	private Integer userId;
+	private String ip;
+	private Date time;
 	
 	public Integer getId() {
 		return id;
